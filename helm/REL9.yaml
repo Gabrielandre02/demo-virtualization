@@ -9,7 +9,7 @@ metadata:
     vm.kubevirt.io/template.revision: '1'
     vm.kubevirt.io/template.version: v0.29.2
   name: rhel9-coffee-meerkat-25
-  namespace: 00-demo
+  namespace: default
   uid: ba669be7-ca14-4753-a299-9119d2a11cd3
 spec:
   dataVolumeTemplates:
