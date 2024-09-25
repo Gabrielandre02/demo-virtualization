@@ -60,7 +60,7 @@ spec:
             - bridge: {}
               macAddress: '02:20:a2:00:00:05'
               model: virtio
-              name: vlan-190
+              name: vlan-104
           rng: {}
         features:
           acpi: {}
