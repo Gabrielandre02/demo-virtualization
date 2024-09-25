@@ -78,8 +78,8 @@ spec:
         - name: default
           pod: {}
         - multus:
-            networkName: default/network-190
-          name: vlan-190
+            networkName: default/vm-vlan-104
+          name: vlan-104
       terminationGracePeriodSeconds: 180
       volumes:
         - dataVolume:
