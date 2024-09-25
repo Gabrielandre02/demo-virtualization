@@ -53,14 +53,10 @@ spec:
                 bus: virtio
               name: cloudinitdisk
           interfaces:
-            - macAddress: '02:20:a2:00:00:04'
-              masquerade: {}
-              model: virtio
-              name: default
             - bridge: {}
               macAddress: '02:20:a2:00:00:05'
               model: virtio
-              name: vlan-104
+              name: vlan-105
           rng: {}
         features:
           acpi: {}
@@ -75,11 +71,9 @@ spec:
           guest: 2Gi
         resources: {}
       networks:
-        - name: default
-          pod: {}
         - multus:
-            networkName: default/vm-vlan-104
-          name: vlan-104
+            networkName: default/vm-vlan-105
+          name: vlan-105
       terminationGracePeriodSeconds: 180
       volumes:
         - dataVolume:
